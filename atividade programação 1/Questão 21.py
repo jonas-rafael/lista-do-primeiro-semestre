@@ -1,0 +1,7 @@
+print("--------------------------------------------")
+print("                Questão 21")
+print("--------------------------------------------")
+a1=float(input("Digite o valor do primeiro lado: "))
+a2=float(input("Digite o valor do segundo lado: "))
+a3=round(a1+a2/180, 2)
+print(f"A medida o terceiro angulo é  {a3}")

@@ -1,0 +1,6 @@
+print("--------------------------------------------")
+print("                Questão 20")
+print("--------------------------------------------")
+numerop=float(input("Digite o número de lados do polígono: "))
+convx=round(numerop*(numerop-3)/3,2)
+print(f"O número de diagonais do polígono é {convx}")

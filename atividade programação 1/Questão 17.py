@@ -1,0 +1,11 @@
+import math
+print("----------------------------------------------")
+print("            Questão 17")
+print("----------------------------------------------")
+valorR=float(input("Digite o valor do Raio: "))
+comcir=round(2*math.pi*valorR,2)
+areac=round(math.pi*(valorR**2),2)
+voles=round(4*math.pi*(valorR**3)/3,2)
+print(f"Quando o raio é {valorR} o comprimento da circunferência é {comcir}")
+print(f"A área da circunferência é {areac}")
+print(f"O volume da esfera é {voles}")

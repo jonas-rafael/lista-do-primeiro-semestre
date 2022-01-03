@@ -1,0 +1,20 @@
+print("------------------------------")
+print("        Questão 15")
+print("------------------------------")
+salario=float(input("Digiter valor do salário: "))
+conta1=float(input("Digite valor da primeira conta: "))
+conta2=float(input("Digite valor da segunda conta: "))
+conta1p=((2/100)*conta1)+conta1
+conta2p=((2/100)*conta2)+conta2
+salariof=salario-conta1p-conta2p
+print(f"O valor do salário é {salario}")
+print("        ")
+print(f"O valor original da primeira conta é: {conta1}")
+print("   ")
+print(f"com o acrécimo de 2% fica: {conta1p}")
+print("  ")
+print(f"O valor original da segunda conta é {conta2}")
+print("  ")
+print(f"O valor da seguna conta com acréssimo de 2% {conta2p}")
+print("  ")
+print(f"O restante do salário é {salariof}")
